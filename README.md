@@ -9,3 +9,6 @@ curl https://raw.githubusercontent.com/chubbyhippo/init.lua/main/init.lua -o "${
 ```
 git clone https://github.com/chubbyhippo/init.lua.git %userprofile%\AppData\Local\nvim\ 
 ```
+```
+curl https://raw.githubusercontent.com/chubbyhippo/init.lua/main/init.lua -o ~/AppData/Local/nvim/init.lua
+```
