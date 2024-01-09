@@ -1,11 +1,16 @@
+-- set
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.o.number = true
 vim.o.ignorecase = true
-vim.opt.incsearch = true
+vim.o.incsearch = true
 vim.o.hlsearch = false
 vim.o.relativenumber = true
+vim.o.shiftwidth = 4
 vim.o.smartcase = true
+vim.o.softtabstop = 4
+vim.o.tabstop = 4
+
 
 -- https://github.com/folke/lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
