@@ -8,6 +8,7 @@ vim.o.hlsearch = false
 vim.o.relativenumber = true
 vim.o.shiftwidth = 4
 vim.o.smartcase = true
+vim.o.smartindent = true
 vim.o.softtabstop = 4
 vim.o.tabstop = 4
 
