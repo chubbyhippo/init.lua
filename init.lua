@@ -18,6 +18,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
+vim.keymap.set("n", "<leader>ae", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
-
-
+vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
