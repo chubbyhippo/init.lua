@@ -28,6 +28,12 @@ vim.keymap.set("n", "=", "<c-w>5+")
 vim.keymap.set("n", "_", "<c-w>25<")
 vim.keymap.set("n", "+", "<c-w>25>")
 
+-- window splitting
+vim.keymap.set("n", "<c-h>", "<c-w><c-h>")
+vim.keymap.set("n", "<c-j>", "<c-w><c-j>")
+vim.keymap.set("n", "<c-k>", "<c-w><c-k>")
+vim.keymap.set("n", "<c-l>", "<c-w><c-l>")
+
 vim.keymap.set("n", "<leader>ae", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
