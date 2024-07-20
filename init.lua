@@ -12,6 +12,7 @@ vim.o.softtabstop = 4
 vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.tabstop = 4
+vim.o.clipboard = 'unnamedplus'
 
 -- remap
 vim.g.mapleader = ' '
