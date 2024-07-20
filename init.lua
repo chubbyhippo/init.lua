@@ -13,7 +13,8 @@ vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.tabstop = 4
 vim.o.clipboard = 'unnamedplus'
-vim.opt.breakindent = true
+vim.o.breakindent = true
+vim.o.undofile = true
 
 -- remap
 vim.g.mapleader = ' '
