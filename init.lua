@@ -15,6 +15,7 @@ vim.o.tabstop = 4
 vim.o.clipboard = 'unnamedplus'
 vim.o.breakindent = true
 vim.o.undofile = true
+vim.o.signcolumn = 'yes'
 
 -- remap
 vim.g.mapleader = ' '
