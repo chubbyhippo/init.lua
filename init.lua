@@ -1,3 +1,6 @@
+-- color scheme
+vim.cmd.colorscheme 'habamax'
+
 -- set
 vim.o.expandtab = true
 vim.o.ignorecase = true
