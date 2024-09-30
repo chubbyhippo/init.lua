@@ -46,6 +46,10 @@ vim.keymap.set("i", "<c-j>", "<c-w><c-j>")
 vim.keymap.set("i", "<c-k>", "<c-w><c-k>")
 vim.keymap.set("i", "<c-l>", "<c-w><c-l>")
 
+vim.keymap.set('n', '<c-j>', '<c-n>')
+vim.keymap.set('n', '<c-k>', '<c-p>')
+
+
 vim.keymap.set("n", "<leader>ae", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
