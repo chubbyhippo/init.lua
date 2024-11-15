@@ -52,9 +52,8 @@ vim.keymap.set('i', '<C-k>', '<c-p>')
 vim.keymap.set('c', '<c-j>', '<c-n>')
 vim.keymap.set('c', '<c-k>', '<c-p>')
 
-vim.keymap.set("n", "<leader>ae", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>eV", ":e $MYVIMRC<cr>", { noremap = true, silent = true })
 
 -- status line
 vim.o.statusline = [[%<%f %h%m%r %y%=%{v:register} %-14.(%l,%c%V%) %P]]
