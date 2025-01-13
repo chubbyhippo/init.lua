@@ -1,24 +1,77 @@
 -- color scheme
 vim.cmd.colorscheme 'default'
 
--- set
-vim.o.expandtab = true
-vim.o.ignorecase = true
-vim.o.incsearch = true
-vim.o.hlsearch = false
-vim.o.number = true
-vim.o.relativenumber = true
-vim.o.shiftwidth = 4
-vim.o.smartcase = true
-vim.o.smartindent = true
-vim.o.softtabstop = 4
 vim.o.splitright = true
 vim.o.splitbelow = true
-vim.o.tabstop = 4
-vim.o.clipboard = 'unnamedplus'
+
 vim.o.breakindent = true
-vim.o.undofile = true
-vim.o.signcolumn = 'yes'
+
+-- Enable line numbers
+vim.opt.number = true                  -- Absolute line numbers
+vim.opt.relativenumber = true          -- Relative line numbers
+
+-- Tab and indentation settings
+vim.opt.tabstop = 4                    -- Number of spaces for a tab
+vim.opt.shiftwidth = 4                 -- Size of an indent
+vim.opt.expandtab = true               -- Use spaces instead of tabs
+vim.opt.smartindent = true             -- Enable smart indenting
+
+-- Search settings
+vim.opt.ignorecase = true              -- Case-insensitive search
+vim.opt.smartcase = true               -- Case-sensitive if uppercase letters are in search
+vim.opt.incsearch = true               -- Incremental search
+vim.opt.hlsearch = true                -- Highlight search results
+
+-- Disable backup and swap files
+vim.opt.backup = false
+vim.opt.writebackup = false
+vim.opt.swapfile = false
+
+-- Enable undo and set undo file directory
+vim.opt.undofile = true                -- Enable persistent undo
+vim.opt.undodir = vim.fn.stdpath("cache") .. "/undo"
+
+-- Whitespace and scrolling
+vim.opt.wrap = false                   -- Disable line wrapping
+vim.opt.scrolloff = 8                  -- Minimum number of lines above/below the cursor
+vim.opt.sidescrolloff = 8              -- Minimum number of columns to the left/right of the cursor
+
+-- UI tweaks
+vim.opt.termguicolors = true           -- Enable true-color support
+vim.opt.signcolumn = "yes"             -- Always show the sign column
+vim.opt.cursorline = true              -- Highlight the current line
+vim.opt.colorcolumn = "80"             -- Highlight the 80th column
+vim.opt.splitbelow = true              -- Open horizontal splits below
+vim.opt.splitright = true              -- Open vertical splits to the right
+
+-- Faster completion and command execution
+vim.opt.updatetime = 300               -- Faster display updates and completion (ms)
+vim.opt.timeoutlen = 500               -- Key mapping timeout (ms)
+
+-- Enable mouse support
+vim.opt.mouse = "a"                    -- Enable mouse in all modes
+
+-- Better clipboard support
+vim.opt.clipboard = "unnamedplus"      -- Use the system clipboard
+
+-- Better file encoding handling
+vim.opt.encoding = "utf-8"
+vim.opt.fileencoding = "utf-8"
+
+-- Wildmenu improvements
+vim.opt.wildmenu = true                -- Enable visual autocompletion for commands
+vim.opt.wildmode = "longest:full,full" -- Command completion mode
+
+-- Disable error bells
+vim.opt.errorbells = false
+vim.opt.visualbell = true
+
+-- Reduce command line height
+vim.opt.cmdheight = 1
+
+-- Fold settings
+vim.opt.foldmethod = "marker"          -- Use markers for folding
+vim.opt.foldlevel = 99                 -- Start unfolded
 
 -- Add all subdirectories to the search path
 vim.opt.path:append("**") -- Recursively search subdirectories for files
