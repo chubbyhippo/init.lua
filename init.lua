@@ -20,6 +20,30 @@ vim.o.breakindent = true
 vim.o.undofile = true
 vim.o.signcolumn = 'yes'
 
+-- Add all subdirectories to the search path
+vim.opt.path:append("**") -- Recursively search subdirectories for files
+
+-- Exclude unwanted files and directories from wildmenu and :find
+vim.opt.wildignore:append({
+    "*.o",           -- Ignore object files
+    "*.obj",         -- Ignore compiled objects
+    "*.bin",         -- Ignore binaries
+    "*.exe",         -- Ignore executables
+    "*.dll",         -- Ignore dynamic libraries
+    "*.pyc",         -- Ignore Python cache
+    "*.class",       -- Ignore Java class files
+    "*.jar",         -- Ignore JAR files
+    "*/.git/*",      -- Ignore Git directory
+    "*/node_modules/*", -- Ignore Node.js dependencies
+    "*/dist/*",      -- Ignore build directories
+    "*/target/*"     -- Ignore Maven/Gradle build directories
+})
+
+-- Improvements for command-line completion (wildmenu)
+vim.opt.wildmenu = true                      -- Enable command-line completion
+vim.opt.wildmode = "longest:full,full"       -- Show the longest match first, then all options
+vim.opt.wildignorecase = true                -- Ignore case during completion
+
 -- remap
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
