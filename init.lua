@@ -1,6 +1,12 @@
 -- color scheme
 vim.cmd.colorscheme 'default'
 
+-- Netrw Configuration
+vim.g.netrw_browse_split = 4    -- Open netrw in a vertical split
+vim.g.netrw_altv = 1            -- Place the split window on the left
+vim.g.netrw_liststyle = 3       -- Use tree-style view
+vim.g.netrw_winsize = 25        -- Set netrw window size to 25% of Vim
+
 vim.o.splitright = true
 vim.o.splitbelow = true
 
