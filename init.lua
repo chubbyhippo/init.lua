@@ -137,17 +137,12 @@ vim.keymap.set("n", "<c-h>", "<c-w><c-h>")
 vim.keymap.set("n", "<c-j>", "<c-w><c-j>")
 vim.keymap.set("n", "<c-k>", "<c-w><c-k>")
 vim.keymap.set("n", "<c-l>", "<c-w><c-l>")
+
 vim.keymap.set("i", "<c-h>", "<c-w><c-h>")
 vim.keymap.set("i", "<c-j>", "<c-w><c-j>")
 vim.keymap.set("i", "<c-k>", "<c-w><c-k>")
 vim.keymap.set("i", "<c-l>", "<c-w><c-l>")
 
-vim.keymap.set('n', '<c-j>', '<c-n>')
-vim.keymap.set('n', '<c-k>', '<c-p>')
-vim.keymap.set('i', '<c-j>', '<c-n>')
-vim.keymap.set('i', '<C-k>', '<c-p>')
-vim.keymap.set('c', '<c-j>', '<c-n>')
-vim.keymap.set('c', '<c-k>', '<c-p>')
 
 -- status line
 vim.o.statusline = [[%<%f %h%m%r %y%=%{v:register} %-14.(%l,%c%V%) %P]]
