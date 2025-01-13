@@ -117,6 +117,7 @@ vim.keymap.set("n", "<Leader>b", ":buffers<CR>:buffer<Space>", { noremap = true 
 vim.keymap.set("n", "<Leader>eV", ":e $MYVIMRC<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>h", ":only<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>m", ":marks<CR>", { noremap = true })
+vim.keymap.set("n", "<Leader>sf", ":find<CR>", { noremap = true })
 
 -- window sizing
 vim.keymap.set("n", "-", "<c-w>5-")
