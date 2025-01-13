@@ -114,7 +114,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "<Leader>ap", vim.cmd.Lexplore)
 vim.keymap.set("n", "<Leader>at", ":terminal<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>b", ":buffers<CR>:buffer<Space>", { noremap = true })
-vim.keymap.set("n", "<leader>eV", ":e $MYVIMRC<cr>", { noremap = true })
+vim.keymap.set("n", "<Leader>eV", ":e $MYVIMRC<CR>", { noremap = true })
 
 -- window sizing
 vim.keymap.set("n", "-", "<c-w>5-")
