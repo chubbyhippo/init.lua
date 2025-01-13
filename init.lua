@@ -98,13 +98,15 @@ vim.opt.wildmode = "longest:full,full"       -- Show the longest match first, th
 vim.opt.wildignorecase = true                -- Ignore case during completion
 
 -- remap
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 vim.keymap.set("i", "jj", "<ESC>", { silent = true })
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>eV", ":e $MYVIMRC<cr>", { noremap = true, silent = true })
 
 -- window sizing
 vim.keymap.set("n", "-", "<c-w>5-")
@@ -128,9 +130,6 @@ vim.keymap.set('i', '<c-j>', '<c-n>')
 vim.keymap.set('i', '<C-k>', '<c-p>')
 vim.keymap.set('c', '<c-j>', '<c-n>')
 vim.keymap.set('c', '<c-k>', '<c-p>')
-
-vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>eV", ":e $MYVIMRC<cr>", { noremap = true, silent = true })
 
 -- status line
 vim.o.statusline = [[%<%f %h%m%r %y%=%{v:register} %-14.(%l,%c%V%) %P]]
