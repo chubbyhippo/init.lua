@@ -122,6 +122,7 @@ vim.keymap.set("n", "<Leader>st", ":copen<Bar>:grep<Space>", { noremap = true })
 vim.keymap.set("n", "<Leader>sV", ":source $MYVIMRC<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>w", ":w<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>q", ":q<CR>", { noremap = true })
+vim.keymap.set("n", "<Leader>Q", ":q!<CR>", { noremap = true })
 
 -- window sizing
 vim.keymap.set("n", "-", "<c-w>5-")
