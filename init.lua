@@ -105,7 +105,7 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
-vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>ap", vim.cmd.Lexplore)
 vim.keymap.set("n", "<leader>b", ":buffers<Cr>:buffer<space>", { noremap = true })
 vim.keymap.set("n", "<leader>eV", ":e $MYVIMRC<cr>", { noremap = true })
 
