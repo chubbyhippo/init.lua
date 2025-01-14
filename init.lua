@@ -149,6 +149,5 @@ vim.keymap.set("i", "<c-j>", "<c-w><c-j>")
 vim.keymap.set("i", "<c-k>", "<c-w><c-k>")
 vim.keymap.set("i", "<c-l>", "<c-w><c-l>")
 
-
 -- status line
 vim.o.statusline = [[%<%f %h%m%r %y%=%{v:register} %-14.(%l,%c%V%) %P]]
