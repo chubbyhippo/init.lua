@@ -12,6 +12,9 @@ vim.o.splitbelow = true
 
 vim.o.breakindent = true
 
+-- Configure `grepprg` to use standard grep
+vim.opt.grepprg = "grep -HIRin $* ."
+
 -- Enable line numbers
 vim.opt.number = true                  -- Absolute line numbers
 vim.opt.relativenumber = true          -- Relative line numbers
