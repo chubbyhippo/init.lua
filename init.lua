@@ -7,9 +7,6 @@ vim.g.netrw_altv = 1            -- Place the split window on the left
 vim.g.netrw_liststyle = 3       -- Use tree-style view
 vim.g.netrw_winsize = 25        -- Set netrw window size to 25% of Vim
 
-vim.o.splitright = true
-vim.o.splitbelow = true
-
 vim.o.breakindent = true
 
 -- Configure `grepprg` to use standard grep
