@@ -7,8 +7,6 @@ vim.g.netrw_altv = 1            -- Place the split window on the left
 vim.g.netrw_liststyle = 3       -- Use tree-style view
 vim.g.netrw_winsize = 25        -- Set netrw window size to 25% of Vim
 
-vim.o.breakindent = true
-
 -- Configure `grepprg` to use standard grep
 vim.opt.grepprg = "grep -HIRin $* ."
 vim.opt.grepformat = "%f:%l:%c:%m"
@@ -22,6 +20,7 @@ vim.opt.tabstop = 4                    -- Number of spaces for a tab
 vim.opt.shiftwidth = 4                 -- Size of an indent
 vim.opt.expandtab = true               -- Use spaces instead of tabs
 vim.opt.smartindent = true             -- Enable smart indenting
+vim.opt.breakindent = true             -- Ensure lines wrap properly
 
 -- Search settings
 vim.opt.ignorecase = true              -- Case-insensitive search
