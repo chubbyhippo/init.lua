@@ -14,6 +14,7 @@ vim.o.breakindent = true
 
 -- Configure `grepprg` to use standard grep
 vim.opt.grepprg = "grep -HIRin $* ."
+vim.opt.grepformat = "%f:%l:%c:%m"
 
 -- Enable line numbers
 vim.opt.number = true                  -- Absolute line numbers
