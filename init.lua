@@ -146,6 +146,7 @@ vim.keymap.set("i", "<c-k>", "<c-w><c-k>")
 vim.keymap.set("i", "<c-l>", "<c-w><c-l>")
 
 -- surround with
+vim.keymap.set("v", "`", "c`<Esc>pa`<Esc>")
 vim.keymap.set("v", "'", "c'<Esc>pa'<Esc>")
 vim.keymap.set("v", "\"", "c\"<Esc>pa\"<Esc>")
 vim.keymap.set("v", "(", "c(<Esc>pa)<Esc>")
