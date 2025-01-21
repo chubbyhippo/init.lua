@@ -106,7 +106,7 @@ vim.opt.wildignorecase = true                -- Ignore case during completion
 -- remap
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-vim.keymap.set("i", "jj", "<ESC>", { silent = true })
+vim.keymap.set("i", "jj", "<Esc>", { silent = true })
 vim.keymap.set("n", "<Tab>", ":tabnext<CR>")
 vim.keymap.set("n", "<S-Tab>", ":tabprevious<CR>")
 vim.keymap.set("n", "n", "nzzzv")
