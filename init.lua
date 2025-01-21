@@ -151,6 +151,8 @@ vim.keymap.set("v", "\"", "c\"<Esc>pa\"<Esc>")
 vim.keymap.set("v", "(", "c(<Esc>pa)<Esc>")
 vim.keymap.set("v", ")", "c(<Esc>pa)<Esc>")
 vim.keymap.set("v", "[", "c[<Esc>pa]<Esc>")
+vim.keymap.set("v", "]", "c[<Esc>pa]<Esc>")
+
 
 -- status line
 vim.o.statusline = [[%<%f %h%m%r %y%=%{v:register} %-14.(%l,%c%V%) %P]]
