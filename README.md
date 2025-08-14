@@ -1,6 +1,6 @@
 ## curl
 ```sh
-[ -d "${XDG_CONFIG_HOME:-$HOME/.config}/nvim" ] && rm -rf "${XDG_CONFIG_HOME:-$HOME/.config}/nvim"; mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim && curl https://raw.githubusercontent.com/chubbyhippo/init.lua/main/init.lua -o "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim/init.lua
+mkdir -p $HOME/.config/nvim && curl https://raw.githubusercontent.com/chubbyhippo/init.lua/main/init.lua -o $HOME/.config/nvim/init.lua
 ```
 ## win
 ```powershell
