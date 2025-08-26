@@ -126,7 +126,7 @@ vim.keymap.set("n", "<Leader>m", ":marks<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>sf", ":find<Space>", { noremap = true })
 vim.keymap.set("n", "<Leader>st", ":copen<Bar>:grep<Space>", { noremap = true })
 vim.keymap.set("n", "<Leader>sV", ":source $MYVIMRC<CR>", { noremap = true })
-vim.keymap.set("n", "<Leader>w", ":w<CR>", { noremap = true })
+vim.keymap.set("n", "<Leader>w", ":wa<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>q", ":q<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>Q", ":q!<CR>", { noremap = true })
 
