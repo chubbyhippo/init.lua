@@ -141,7 +141,6 @@ vim.keymap.set("n", "<leader>wh>", "<c-w><c-h>")
 vim.keymap.set("n", "<leader>wj>", "<c-w><c-j>")
 vim.keymap.set("n", "<leader>wk>", "<c-w><c-k>")
 vim.keymap.set("n", "<leader>wl>", "<c-w><c-l>")
-vim.keymap.set("i", "<c-j>", "<c-w><c-j>")
 vim.keymap.set("i", "<c-k>", "<c-w><c-k>")
 vim.keymap.set("i", "<c-l>", "<c-w><c-l>")
 
