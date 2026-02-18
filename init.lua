@@ -139,7 +139,7 @@ vim.keymap.set("n", "+", "<c-w>25>")
 -- window splitting
 vim.keymap.set("n", "<leader>wh>", "<c-w><c-h>")
 vim.keymap.set("n", "<leader>wj>", "<c-w><c-j>")
-vim.keymap.set("n", "<c-k>", "<c-w><c-k>")
+vim.keymap.set("n", "<leader>wk>", "<c-w><c-k>")
 vim.keymap.set("n", "<c-l>", "<c-w><c-l>")
 vim.keymap.set("i", "<c-h>", "<c-w><c-h>")
 vim.keymap.set("i", "<c-j>", "<c-w><c-j>")
