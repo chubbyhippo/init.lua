@@ -135,7 +135,7 @@ vim.keymap.set("n", "=", "<c-w>5+")
 vim.keymap.set("n", "_", "<c-w>25<")
 vim.keymap.set("n", "+", "<c-w>25>")
 
--- windows moving
+-- windows navigation
 vim.keymap.set("n", "<leader>wh>", "<c-w><c-h>")
 vim.keymap.set("n", "<leader>wj>", "<c-w><c-j>")
 vim.keymap.set("n", "<leader>wk>", "<c-w><c-k>")
