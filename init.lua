@@ -141,6 +141,7 @@ vim.keymap.set("n", "<leader>wj>", "<c-w><c-j>")
 vim.keymap.set("n", "<leader>wk>", "<c-w><c-k>")
 vim.keymap.set("n", "<leader>wl>", "<c-w><c-l>")
 vim.keymap.set("n", "<c-h>", "<c-w><c-h>")
+vim.keymap.set("n", "<c-j>", "<c-w><c-j>")
 
 -- surround with
 vim.keymap.set("v", "`", "c`<Esc>pa`<Esc>", { noremap = true })
